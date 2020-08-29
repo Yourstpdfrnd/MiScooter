@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+ 
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <a class="logo" href="#">
+          <picture class="logo__img">
+            <source srcset="images/logo-mobile.png" media="(max-width:600px)">
+            <img src="images/logo.png" alt="">
+          </picture>
+        </a>
+
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#product">О самокате</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#benefits">Преимущества</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#specification">Характеристики</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#app">Приложение</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#questions">Вопросы</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#contacts">Контакты</a>
+            </li>
+          </ul>
+          <img class="menu__close-btn" src="images/closed.png" alt=""> 
+        </nav>
+        
+        <div class="header__info">
+          <button class="header__btn">Купить</button>
+          <a class="header__phone" href="tel:88000000000">8 (800) 000 00 00</a>
+        </div>
+        <img class="header__menu-btn" src="images/menu.png" alt="">
+      </div>
+    </div>
+  </header>
+
+  <main id="fullpage">
+
+    <section class="page-section top">
+      <div class="page-section__wrapper top__wrapper">
+        <div class="container">
+          <div class="top__inner">
+            <h1 class="top__title" data-aos="fade-right" data-aos-delay="50">Mi Electric Scooter</h1>
+            <p class="top__text" data-aos="fade-in" data-aos-delay="150">Электросамокат <br> Xiaomi Mijia Pro
+            </p>
+            <ul class="top__social-list">
+              <li class="top__social-item animate__animated animate__rollIn animate__delay-2s"><a
+                  class="top__social-item__link" href="#">
+                  <img src="images/facebook.svg" alt="">
+                </a></li>
+              <li class="top__social-item animate__animated animate__rollIn animate__delay-1s"><a
+                  class="top__social-item__link" href="#">
+                  <img src="images/youtube.svg" alt="">
+                </a></li>
+              <li class="top__social-item animate__animated animate__rollIn animate__delay-0.5s"><a
+                  class="top__social-item__link" href="#">
+                  <img src="images/instagram.svg" alt="">
+                </a></li>
+            </ul>
+          </div>
+          <div class="scroll__btn">
+            <a href="#product"><img src="images/arrow-down.svg" alt=""></a>
+          </div>
+
+        </div>
+      </div>
+    </section> 
+
+    <section id="product" class="page-section product">
+      <div class="page-section__wrapper">
+        <div class="container">
+          <div class="title" data-aos="fade-right" data-aos-delay="50"> Что такое Mi Electric Scooter M365 Pro?</div>
+          <div class="product__inner">
+            <div class="product__text" data-aos="flip-up">
+              <p>Электрический самокат Xiaomi Mi Electric Scooter – отличное компактное средство для передвижения по
+                городу на расстояние до 50 км. Складной корпус и небольшой вес 12,5 кг позволяют брать его с собой в
+                общественный транспорт.</p>
+              <p>Каркас модели, как и каждая ее деталь, выполнены в едином лаконичном стиле. В дизайне преобладают
+                простые геометрические формы, поэтому пользоваться самокатом становится еще приятнее. Несмотря на
+                визуальную простоту, конструкция этого уникального транспортного средства продумана до мельчайших
+                подробностей. Строгая палитра максимально подчеркивает изящество форм.</p>
+            </div>
+            <div class="product__slider-box">
+              <p class="product__slider-text">Алюминиевая рама аэрокосмического класса
+                Весит всего 12,5 кг
+              </p>
+              <div class="product__slider">
+                <div class="product__slider-item">
+                  <img src="images/slider.jpg" alt="" class="product__slider-img"></div>
+                <div class="product__slider-item">
+                  <img src="images/slider.jpg" alt="" class="product__slider-img"></div>
+                <div class="product__slider-item">
+                  <img src="images/slider.jpg" alt="" class="product__slider-img"></div>
+                <div class="product__slider-item">
+                  <img src="images/slider.jpg" alt="" class="product__slider-img"></div>
+                <div class="product__slider-item">
+                  <img src="images/slider.jpg" alt="" class="product__slider-img"></div>
+                <div class="product__slider-item">
+                  <img src="images/slider.jpg" alt="" class="product__slider-img"></div>
+              </div>
+            </div>
+          </div>
+          <div class="scroll__btn">
+            <a href="#benefits"><img src="images/arrow-down.svg" alt=""> </a></div>
+
+        </div>
+      </div>
+    </section>
+
+ <section id="benefits" class="page-section benefits">
+      <div class="page-section__wrapper">
+        <div class="container">
+          <h3 class="title benefits__title" data-aos="fade-right" data-aos-delay="100" >Преимущества</h3>
+          <div class="benefits__items">
+            <div class="benefits__item"  data-aos="zoom-in" data-aos-delay="50" >
+              <div class="benefits__num">1</div>
+              <div class="benefits__img"><img src="images/benefits1.jpg" alt=""></div>
+              <div class="benefits__info">
+                <h4 class="benefits__info-title">Встроенный дисплей для наблюдения
+                </h4>
+                <p class="benefits__info-text">Вся важная информация отображается сразу и четко видна, от Bluetooth до
+                  предупреждений о ремонте.</p>
+              </div>
+            </div>
+            <div class="benefits__item" data-aos="zoom-in" data-aos-delay="250">
+              <div class="benefits__num num__even">2</div>
+              <div class="benefits__img"><img src="images/benefits2.jpg" alt=""></div>
+              <div class="benefits__info">
+                <h4 class="benefits__info-title">
+                  Сверхъяркая фара мощностью 2 Вт
+                </h4>
+                <p class="benefits__info-text">Усовершенствованный режим второго поколения распознаёт и отслеживает
+                  объекты
+                  ещё точнее, быстрее и умнее.</p>
+              </div>
+            </div>
+            <div class="benefits__item" data-aos="zoom-in" data-aos-delay="350">
+              <div class="benefits__num">3</div>
+              <div class="benefits__img"><img src="images/benefits3.jpg" alt=""></div>
+              <div class="benefits__info">
+                <h4 class="benefits__info-title">Модернизированный задний фонарь
+
+                </h4>
+                <p class="benefits__info-text">Больше и ярче. Задний фонарь также имеет функцию заднего отражателя для
+                  обеспечения безопасной езды.
+                </p>
+              </div>
+            </div>
+            <div class="benefits__item" data-aos="zoom-in" data-aos-delay="450">
+              <div class="benefits__num num__even">4</div>
+              <div class="benefits__img"><img src="images/benefits4.jpg" alt=""></div>
+              <div class="benefits__info">
+                <h4 class="benefits__info-title">Двойная тормозная система
+
+                </h4>
+                <p class="benefits__info-text">На заднем колесе используется перфорированный тормозной диск, а
+                  переднее оснащено антиблокировочной тормозной системой E-ABS.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="scroll__btn">
+            <a href="#specification"><img src="images/arrow-down.svg" alt=""></a></div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="specification" class="page-section specification">
+      <div class="page-section__wrapper">
+        <div class="container">
+          <h3 class="title specificatiin__title" data-aos="fade-right" data-aos-delay="50" >Характеристики</h3>
+          <div class="specification__inner">
+            <div class="specification__item specification__item-1">
+              <div class="specification__box specification__box-1">
+                <h4 class="specification__box-title">Подзаряжается самостоятельно</h4>
+                <p class="specification__box-text">Рекуперация подзаряжает электросамокат
+                  с помощью энергии торможения. На экране бортового компьютера вы сможете отслеживать уровень
+                  заряда батареи, задать свечение заднего стоп-сигнала или остаток пробега.</p>
+               
+              </div>
+              <div class="specification__box specification__box-2">
+                <h4 class="specification__box-title">Батарея</h4>
+                <p class="specification__box-text">Чтобы продлить срок службы батареи, самокат преобразует и накапливает
+                  кинетическую энергию во время ускорения в
+                  электроэнергия. Он также оснащен системой рекуперативного торможения для дополнительной мощности. Это
+                  увеличивает
+                  система экстренного торможения и в то же время увеличивает срок службы батареи. </p>
+              </div>
+            </div>
+             <div class="specification__item specification__item-img" data-aos="zoom-in-down" data-aos-delay="550">
+              <img src="images/specification.png" alt="">
+            </div> 
+            <div class="specification__item specification__item-3">
+              <div class="specification__box specification__box-3">
+                <h4 class="specification__box-title"> Управление с помощью дисплея на руле</h4>
+                <p class="specification__box-text">3 режима езды. Eco — экономит батарею, максимальная скорость на
+                  режиме — 15 км/ч
+                  Normal — средний разгон, 20 км/ч
+                  Sport — динамичный режим, разгоняется до 25 км/ч.</p>
+              </div>
+              <div class="specification__box specification__box-4">
+                <h4 class="specification__box-title">Безопасность</h4>
+                <p class="specification__box-text">120-ти миллиметровые дисковые тормоза M365 Pro работают хорошо. Они
+                  позволяют останавливаться, примерно за три секунды, при движении, на максимальной скорости. У самоката
+                  также, есть рекуперативное торможение, приводящее двигатель, в обратное движение. </p>
+              </div>
+            </div>
+          </div>
+          <div class="scroll__btn">
+            <a href="#app"><img src="images/arrow-down.svg" alt=""></a></div>
+
+        </div>
+      </div>
+    </section>
+
+
+
+  <section id="app" class="page-section app">
+      <div class="page-section__wrapper">
+        <div class="container">
+          <h3 class="title app__title" data-aos="fade-right" data-aos-delay="50" >Приложение</h3>
+          <div class="app-inner">
+            <div class="app-inner__info">
+              <h4 class="app-inner__info-title">
+                Приложение Mi Home, ваш умный помощник
+              </h4>
+              <div class="app-inner__info-text">
+                <p> Превратите свой смартфон в панель управления.
+                  Xiaomi Mi Electric Scooter можно подключить к приложению Mi Home через Bluetooth для блокировки и
+                  разблокировки, отслеживания данных о поездке (например, пробега, скорости, оставшегося заряда батареи
+                  и т. Д.) И настройки параметров круиз-контроля *. Вы также можете пользоваться новыми функциями и
+                  добиться более комфортного ощущения от езды за счет обновления прошивки.</p>
+
+              </div>
+              <ul class="app-inner__info-list">
+                <li>
+                  <div class="app-inner__info-icon">
+                    <img src="images/icon-1.png" alt="">
+                    <p>Статистика езды</p>
+                </li>
+                <li>
+                  <div class="app-inner__info-icon">
+                    <img src="images/icon-2.png" alt="">
+                    <p>
+                      Дистанционная блокировка</p>
+                </li>
+                <li>
+                  <div class="app-inner__info-icon">
+                    <img src="images/icon-3.png" alt="">
+                    <p>Круиз-контроль</p>
+                </li>
+                <li>
+                  <div class="app-inner__info-icon">
+                    <img src="images/icon-4.png" alt="">
+                    <p>Восстановление энергии</p>
+                </li>
+                <li>
+                  <div class="app-inner__info-icon">
+                    <img src="images/icon-5.png" alt="">
+                    <p>
+                      Обновления прошивки</p>
+                </li>
+                <li>
+                  <div class="app-inner__info-icon">
+                    <img src="images/icon-6.png" alt="">
+                    <p>Bluetooth</p>
+                </li>
+              </ul>
+            </div>
+             <div class="app-inner__img" data-aos="zoom-out" data-aos-delay="200">
+              <img src="images/mobile.png" alt="">
+            </div>
+          </div>
+
+          <div class="scroll__btn">
+            <a href="#questions"><img src="images/arrow-down.svg" alt=""></a></div>
+        </div>
+      </div>
+      </div>
+      <div class="scroll__btn">
+        <a href="#benefits"><img src="images/arrow-down.svg" alt=""> </a></div>
+
+      </div>
+      </div>
+    </section>
+
+
+  <section id="questions" class="page-section questions">
+      <div class="page-section__wrapper">
+        <div class="container">
+          <h3 class="title" data-aos="fade-right" data-aos-delay="50" >Остались вопросы?</h3>
+          <div class="questions__items">
+            <div class="questions__item">
+              <h4 class="questions__item-title">Какие отличия между Xiaomi m365 и Xiaomi m365 Pro?</h4>
+              <p class="questions__item-text">В обновленной версии производители увеличили ёмкость аккумулятора до 474
+                Wh. Благодаря этому M365 Pro держит дальность хода на 15 км больше, что составляет 45 км до полной
+                разрядки.
+                Это ещё не всё! В Xiaomi M365 Pro встроили дисплей на руль, которого так не хватало в предшественнике.
+                На нём вы сможете выбрать режим движения, узнать текущую скорость, остаток заряда, отрегулировать
+                яркость фар, а также в режиме реального времени следить за состоянием самоката. В случае сбоя или
+                поломки M365 Pro своевременно уведомит пользователя сообщением на экране.</p>
+
+            </div>
+            <div class="questions__item">
+              <h4 class="questions__item-title">Сколько я смогу проехать км на одном заряде батареи? </h4>
+              <p class="questions__item-text questions__item--active">Самокат оснащен надежным литиевым аккумулятором
+                формата 18650 и емкостью 474 Вт/ч. Батарея имеет увеличенную мощность энергоснабжения и
+                производительность. Поэтому дальность хода на одном заряде составляет 45 км. Система умного управления
+                аккумулятора с шестиступенчатой защитой отличается прочностью и долговечностью. Мобильное приложение
+                позволяет следить за состоянием аккумулятора и сообщает о наличии ошибок.</p>
+
+            </div>
+            <div class="questions__item">
+              <h4 class="questions__item-title">Для чего нужно приложение Xiaomi Mijia Pro?</h4>
+              <p class="questions__item-text">Умное приложение
+                Электросамокат Xiaomi Mijia Pro через Bluetooth подключается к мобильному приложению, с помощью которого
+                можно будет обновить прошивку самоката или включить блокиратор. В приложении также отображаются и такие
+                данные, как например: пройденной расстояние, скорость и количество избыточной электроэнергии. Функция
+                круиз-контроля обеспечивает снижение нагрузки на водителя и облегчает процесс управления самокатом,
+                понижая утомляемость. А функция контроля скорости движения поможет сэкономить энергию.</p>
+
+            </div>
+            <div class="questions__item">
+              <h4 class="questions__item-title">Присутствует ли в самокате защита от влаги？</h4>
+              <p class="questions__item-text">Электросамокат Xiaomi m365 Pro защищен от пыли и брызг воды по стандарту
+                IP54, таким образом, можно без проблем кататься в дождливую погоду, по лужам, грязи и снегу.</p>
+
+            </div>
+          </div>
+          <div class="scroll__btn">
+            <a href="#contacts"><img src="images/arrow-down.svg" alt=""></a></div>
+
+        </div>
+      </div>
+    </section>
+
+<section id="contacts" class="page-section contacts">
+      <div class="page-section__wrapper">
+        <div class="container">
+          <h3 class="title" data-aos="fade-right" data-aos-delay="50" >Контакты</h3>
+          <div class="contacts__inner">
+            <div class="contacts__info">
+              <div class="contacts__info-box">
+                <p class="contacts__info-title">Москва</p>
+                <a class="contacts__info-phone" href="tel:88000000000">8 (800) 000–00–00</a>
+                <a class="contacts__info-email" href="mailto:dgi.xiaomipro.msc@mail.ru">dgi.xiaomipro.msc@mail.ru</a>
+              </div>
+              <div class="contacts__info-box">
+                <p class="contacts__info-title">Санкт-Петербург</p>
+                <a class="contacts__info-phone" href="tel:88000000000">8 (800) 000–00–00</a>
+                <a class="contacts__info-email" href="mailto:dgi.xiaomipro.spb@mail.ru">dgi.xiaomipro.spb@mail.ru</a>
+              </div>
+              <div class="contacts__info-box">
+                <p class="contacts__info-title">Новосибирск</p>
+                <a class="contacts__info-phone" href="tel:88000000000">8 (800) 000–00–00</a>
+                <a class="contacts__info-email" href="mailto:dgi.xiaomipro.nsk@mail.ru">dgi.xiaomipro.nsk@mail.ru</a>
+              </div>
+            </div>
+            <div class="contacts__form">
+              <form>
+                <h4 class="contacts__form-title">Остались вопросы?</h4>
+                <p class="contacts__form-text">Мы обязательно свяжемся с вами в течении двух рабочих дней</p>
+                <div class="contacts__form-line">
+                  <input class="contacts__form-input" placeholder="Ваше имя" type="text">
+                  <input class="contacts__form-input" placeholder="Ваш email" type="text">
+                </div>
+                <textarea class="contacts__form-textarea" placeholder="Что вас интересует" type="text">
+            </textarea>
+                <button class="contacts__form-btn">Отправить</button>
+              </form>
+            </div>
+            <ul class="contacts__social-list">
+              <li class="contacts__social-item">
+                <a class="contacts__social-item__link" href="#">
+                  <img src="images/facebook.svg" alt="">
+                </a></li>
+              <li class="contacts__social-item">
+                <a class="contacts__social-item__link" href="#">
+                  <img src="images/youtube.svg" alt="">
+                </a></li>
+              <li class="contacts__social-item">
+                <a class="contacts__social-item__link" href="#">
+                  <img src="images/instagram.svg" alt="">
+                </a></li>                
+            </ul>
+          </div>
+          <footer class="footer">
+            <div class="container">
+              <p class="footer__copy">© DJI, 2020</p>
+            </div>
+          </footer>
+        </div>
+
+      </div>
+
+    </section>  
+
+
+  </main>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/libs.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
